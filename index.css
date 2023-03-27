@@ -1,0 +1,62 @@
+*{
+    color: rgb(11, 167, 219);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+
+}
+#container{
+    display: flex;
+    flex-flow: column nowrap;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(26, 162, 248);
+    max-width: 20em;
+    border-radius: 8px;
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+#author{
+    margin-left: auto;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#buttons{
+    display: flex;  
+    justify-content: center;
+}
+
+
+
+button{
+    cursor: pointer;
+}
+
+#new-advice{
+    background-color: rgb(26, 162, 248);
+    border-style: none;
+    border-radius: 8px;
+    color: white;
+    padding: 0 8% 0 8%;
+    margin-right: 15%;
+    
+}
+
+
+a{
+    cursor: pointer;
+}
+
+.twitter{
+    flex: 1;
+}
+
+
